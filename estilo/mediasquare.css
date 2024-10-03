@@ -1,4 +1,4 @@
-@media screen and (max-width: 1415px){
+@media screen and (max-width: 1215px){
 
     html, body {
         margin: 0px;
@@ -33,7 +33,6 @@
         display: block;
         margin: auto;
         margin-top: -60em;
-        color: red;
        
     }
 
@@ -61,7 +60,7 @@ footer > #informaçoes {
 
 }
 
-@media screen and (min-width: 1416px){
+@media screen and (min-width: 1216px){
 
     html, body {
         margin: 0px;
@@ -87,21 +86,80 @@ footer > #informaçoes {
 
     footer > #email {
         display: block;
-        margin-left: 26em;
+        margin-left: 22em;
     }
 
 
     footer > #Redes-Sociais {
-        margin-left: 54.5em;
+        margin-left: 47.0em;
     }
 
     footer > #informaçoes {
         font-size: 1.1em;
-        margin-left: 65em;
+        margin-top: -60px;
+        margin-left: 54em;
+        
     }
 }
 
-@media screen and (min-width: 1605px){
+@media screen and (min-width: 1320px) {
+    footer > #telefone {
+        margin-left: 2em;
+    }
+
+    footer > #email {
+        display: block;
+        margin-left: 23em;
+    }
+
+    footer > #Redes-Sociais {
+        margin-left: 50.0em;
+    }
+
+    footer > #informaçoes {
+        font-size: 1.1em;
+        margin-top: -60px;
+        margin-left: 60em;
+        
+    }
+}
+
+@media screen and (min-width: 1400px){
+    footer > #email {
+        display: block;
+        margin-left: 25em;
+    }
+
+    footer > #Redes-Sociais {
+        margin-left: 54.0em;
+    }
+
+    footer > #informaçoes {
+        font-size: 1.1em;
+        margin-top: -60px;
+        margin-left: 65.5em;
+        
+    }
+}
+
+@media screen and (min-width: 1560px){
+    footer > #email {
+        display: block;
+        margin-left: 27em;
+    }
+
+    footer > #Redes-Sociais {
+        margin-left: 59.0em;
+    }
+
+    footer > #informaçoes {
+        font-size: 1.1em;
+        margin-top: -60px;
+        margin-left: 73.0em;
+    }
+}
+
+@media screen and (min-width: 1775px){
 
     html, body {
         margin: 0px;
