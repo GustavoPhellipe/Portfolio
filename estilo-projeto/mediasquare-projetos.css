@@ -1,0 +1,262 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 1600px){
+
+    #Nome_editor > p {
+        display: none;
+    }
+
+
+    footer {
+        height: 100px;
+    }
+
+    footer > #telefone {
+        margin-left: 8em;
+    }
+
+    footer > #email {
+        margin-left: 33em;
+    }
+
+    footer > #Redes-Sociais {
+        margin-left: 64em;
+    }
+
+    footer > #informaçoes {
+        font-size: 1.2em;
+        margin-left: 83em;
+    }
+}
+
+@media screen and (max-width: 1440px){
+
+
+    #Nome_editor > p {
+        display: none;
+    }
+
+    #imagem > img {
+        width: 470px;
+        height: 470px;
+    }
+
+    footer {
+        width: 700px;
+        display: block;
+        margin-top: 0em;
+    }
+    
+    footer > #Redes-Sociais {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    
+    footer > #informaçoes {
+        font-size: 1.2em;
+        margin-top: -60px;
+        margin-left: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1120px){
+
+    
+
+    #Nome_editor > p {
+        display: none;
+    }
+
+    #projetos {
+       
+        width: 700px;
+        height: 2200px;
+        display: block;
+        margin: auto;
+    }
+
+    #projetos > header > h1 {
+        display: block;
+        text-align: center;
+        margin-top: 1.5em;
+        padding-bottom: 100px;
+    }
+
+
+    #projeto-android {
+        display: block;
+        margin-left: 9em;
+        width: 380px;
+    }
+
+    #imagem-android{
+        margin-top: 5.7em ;
+        margin-left: 7em;
+    }
+
+    #projeto-social {
+        width: 365px;
+        margin-top: -3.5em;
+        margin-left: 9em;
+    }
+
+    #imagem-social{
+        margin-top: 7em;
+        margin-left: -4.3em;
+    }
+
+    #projeto-cordel {
+        width: 365px;
+        margin-top: 30.5em;
+        margin-left: 9em;
+    }
+
+    #imagem-cordel {
+        margin-top: 7em;
+        margin-left: -4.3em;
+    }
+}
+
+
+@media screen and (max-width: 920px){
+
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+
+    header > #Nome_editor {
+        margin-left: -22px;
+    }
+
+    #Nome_editor > p {
+        display: none;
+    }
+
+    #link-home {
+        display: inline-block;
+        margin-left: 54em;
+        font-size: 1.0em;
+    }
+
+
+     #link-curriculo, #link-projetos, #link-contato {
+        display: none;
+    }
+
+
+
+}
+
+@media screen  and (max-width: 720px) {
+
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+    #link-home {
+        margin-top: -152px;
+        margin-left: 41em;
+        font-size: 1.0em;
+    }
+
+    #link-curriculo, #link-projetos, #link-contato {
+        display: none;
+    }
+
+    header > #Nome_editor {
+        margin-left: -22px;
+    }
+
+
+    #Nome_editor > p {
+        display: none;
+    }
+
+    
+
+    #projetos {
+        width: 480px;
+        height: 2200px;
+        display: block;
+        margin: auto;
+    }
+
+    #projetos > header > h1 {
+        margin-left: -4.5em;
+    }
+
+    #projeto-android {
+        width: 300px;
+        margin-left: 0.5em;
+    }
+
+    #imagem-android {
+        margin-left: 1.2em;
+    }
+    #imagem-android > img{
+        width: 350px;
+    }
+    #h3_2 {
+        margin-left: 9em;
+    }
+
+    #projeto-social {
+        width: 300px;
+        margin-left: 0.5em;
+    }
+
+    #data-criaçao {
+        margin-left: 9em;
+    }
+
+    #imagem-social {
+        margin-left: -1.0em;
+    }
+    #imagem-social > img{
+        width: 350px;
+    }
+
+    #projeto-cordel {
+        width: 320px;
+        margin-left: 0.5em;
+    }
+
+    #imagem-cordel {
+        margin-left: -0.8em;
+    }
+    #imagem-cordel > img{
+        width: 350px;
+    }
+
+    footer {
+        width: 450px;
+        
+    }
+
+    footer > #telefone {
+        margin-top: 2em;
+    }
+
+    footer > #email {
+        display: block;
+        margin-top: 2em;
+        margin-left: 21px;
+    }
+
+    footer > #Redes-Sociais {
+        display: none;
+    }
+
+    footer > #informaçoes {
+        margin-top: -128px;
+        margin-left: 250px;
+        width: 150px;
+    }
+}
+

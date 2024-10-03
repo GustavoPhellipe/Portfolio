@@ -1,0 +1,209 @@
+@media screen and (max-width: 1415px){
+
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    header {
+        width: 94%;
+    }
+
+    header > nav {
+       margin-left: 20em;
+    }
+
+    #link-home {
+        display: none;
+    }
+
+    header > #Nome_editor > p {
+        display: none;
+    }
+
+    section {
+        margin: auto;
+        margin-top: 520px;
+        width: 490px;
+    }
+
+
+    section > #sobre_mim {
+        width: 350px;
+        display: block;
+        margin: auto;
+        margin-top: -60em;
+        color: red;
+       
+    }
+
+#opçoes {
+    margin: auto;
+}
+
+
+footer {
+    width: 700px;
+    display: block;
+    margin-top: 0em;
+}
+
+footer > #Redes-Sociais {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer > #informaçoes {
+    font-size: 1.1em;
+    margin-top: -60px;
+    margin-left: 400px;
+}
+
+}
+
+@media screen and (min-width: 1416px){
+
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    header > #Nome_editor > p {
+        display: none;
+    }
+
+    #link-home {
+        display: none;
+    }
+
+    footer {
+        height: 100px;
+        
+    }
+
+    footer > #telefone {
+        margin-left: 3em;
+    }
+
+    footer > #email {
+        display: block;
+        margin-left: 26em;
+    }
+
+
+    footer > #Redes-Sociais {
+        margin-left: 54.5em;
+    }
+
+    footer > #informaçoes {
+        font-size: 1.1em;
+        margin-left: 65em;
+    }
+}
+
+@media screen and (min-width: 1605px){
+
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+    header > #Nome_editor > p {
+        display: none;
+    }
+
+
+    footer > #email {
+        margin-left: 33em;
+    }
+
+    footer > #Redes-Sociais {
+        margin-left: 69em;
+    }
+
+    footer > #informaçoes {
+        font-size: 1.1em;
+        margin-left: 84em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    
+    html, body {
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+    }
+
+        header {
+            width: 300px;
+        }
+
+        header > nav {
+            display: none;
+        }
+
+        header > #Nome_editor {
+            margin-left: -22px;
+        }
+
+    
+        #Nome_editor > p {
+            display: none;
+        }
+
+
+        section {
+            
+            width: 460px;
+        }
+
+        section > #sobre_mim {
+            margin-top: -55em;
+            margin-left: 20px;
+        }
+
+        .bolinha {
+            width: 100px;
+            height: 100px;
+        }
+
+      #opçoes > ul > .bolinha > a{
+            margin-top: 38px;
+            font-size: 18px ;
+            color: rgb(0, 0, 0);
+        }
+
+        #imagem {
+            width: 385px;
+            
+        }
+        
+        #imagem > img {
+            width: 385px;
+            height: 385px;
+        }
+
+        footer {
+            width: 450px;
+        }
+
+        footer > #telefone {
+            margin-top: 2em;
+        }
+
+        footer > #email {
+            display: block;
+            margin-top: 33px;
+            margin-left: 22px;
+        }
+
+        footer > #Redes-Sociais {
+            display: none;
+        }
+
+        footer > #informaçoes {
+            margin-top: -128px;
+            margin-left: 250px;
+        }
+    }

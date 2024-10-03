@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 985px){
+
+          html, body {
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+          }
+          header {
+                    display: block;
+                    height: 30px;
+          }
+
+          header > #Nome_editor {
+            margin-left: -22px;
+        }
+
+
+          #link-home {
+                    display: block;
+                    margin-top: -20px;
+                    margin-left: 800px;
+                    
+          }
+
+          #link-curriculo, #link-projetos, #link-contato {
+                    display: none;
+                }
+
+
+          #informaçoes {
+                    width: 450px;
+                    height: 200px;
+          }
+
+          #imagem-zap {
+                    margin-left: 105px;
+                }
+          
+                #imagem-zap > img {
+                    width: 42px;
+                }
+          
+                #informaçoes > p {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 1.3em;
+                    margin-top: -1.8em;
+                    margin-left: 7.6em;
+                }
+          
+                #informaçoes > #imagem-insta {
+                    margin-top: 30px;
+                    margin-left: 105px;
+                }
+          
+                #informaçoes > #imagem-insta > img {
+                    width: 41px;
+                }
+          
+                #informaçoes > #imagem-github {
+                    margin-top: 32px;
+                    margin-left: 105px;
+                }
+          
+                #informaçoes > #imagem-github > img {
+                    width: 41px;
+                }
+}
