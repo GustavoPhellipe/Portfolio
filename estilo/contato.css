@@ -130,3 +130,12 @@
       #informaçoes > #imagem-github > img {
           width: 41px;
       }
+
+      #link-github {
+        color: black;
+        text-decoration: none;
+      }
+
+      #link-github:hover{
+        text-decoration: underline;
+      }

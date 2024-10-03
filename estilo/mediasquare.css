@@ -170,6 +170,9 @@ footer > #informaçoes {
         display: none;
     }
 
+    footer > #telefone {
+        margin-left: 3em;
+    }
 
     footer > #email {
         margin-left: 33em;
@@ -180,8 +183,8 @@ footer > #informaçoes {
     }
 
     footer > #informaçoes {
-        font-size: 1.1em;
-        margin-left: 84em;
+        font-size: 1.3em;
+        margin-left: 70em;
     }
 }
 

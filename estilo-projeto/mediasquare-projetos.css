@@ -1,18 +1,12 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 1600px){
-
-    #Nome_editor > p {
-        display: none;
-    }
-
-
+@media screen and (min-width: 1860px){
     footer {
         height: 100px;
     }
 
     footer > #telefone {
-        margin-left: 8em;
+        margin-left: 4.5em;
     }
 
     footer > #email {
@@ -20,16 +14,17 @@
     }
 
     footer > #Redes-Sociais {
-        margin-left: 64em;
+        margin-left: 70em;
     }
 
     footer > #informaçoes {
-        font-size: 1.2em;
-        margin-left: 83em;
+        font-size: 1.1em;
+        margin-left: 87em;
+        
+        
     }
 }
-
-@media screen and (max-width: 1440px){
+@media screen and (max-width: 1450px){
 
 
     #Nome_editor > p {
@@ -56,10 +51,9 @@
         font-size: 1.2em;
         margin-top: -60px;
         margin-left: 400px;
-    }
 
 }
-
+}
 @media screen and (max-width: 1120px){
 
     
@@ -116,6 +110,11 @@
         margin-top: 7em;
         margin-left: -4.3em;
     }
+
+    footer > #informaçoes {
+        font-size: 1.1em;
+    }
+
 }
 
 
@@ -147,7 +146,9 @@
         display: none;
     }
 
-
+    footer > #informaçoes {
+        font-size: 1.1em;
+    }
 
 }
 
@@ -255,8 +256,9 @@
 
     footer > #informaçoes {
         margin-top: -128px;
-        margin-left: 250px;
-        width: 150px;
+        margin-left: 240px;
+        width: 180px;
+        font-size: 1.1em;
     }
 }
 
